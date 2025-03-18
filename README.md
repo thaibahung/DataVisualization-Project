@@ -5,12 +5,12 @@
 The dataset contains match-level statistics from the 2021-2022 Premier League season, providing insights into team performance, match outcomes, and in-game events. It includes both numerical (e.g., goals, shots, fouls) and categorical (e.g., match outcome, teams).  
 
 ### Provenance  
-- **Source:** [Premier League Official Data / Public Repository]  
 - **Data Type:** Structured dataset with match-level records  
 - **Dimensions:** Match data, teams, scores, results, offensive and defensive stats.  
 
 ## 2. Reason for Choosing the Dataset  
-This dataset was chosen because the Premier League is one of the most competitive football leagues globally, making it ideal for performance analysis and storytelling. The dataset allows us to explore key game dynamics, team strategies, and factors influencing match outcomes. The combination of numerical and categorical variables makes it well-suited for visualization and statistical modeling.  
+We are passionate about football, and the Premier League is one of the most exciting and competitive leagues in the world. This dataset allows us to dive deeper into match dynamics, analyze team performances, and explore factors that influence results. By working with real match data, we can apply statistical methods to uncover patterns in gameplay, such as the impact of shot accuracy or disciplinary records on match outcomes. The mix of numerical and categorical variables also provides opportunities for insightful visualizations and comparisons.  
+
 
 ## 3. Research Questions  
 
