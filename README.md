@@ -5,7 +5,6 @@
 The dataset contains match-level statistics from the 2021-2022 Premier League season, covering team performance, match outcomes, and key events. It includes numerical variables like goals, shots, and fouls, as well as categorical variables such as match results and team names.  
 
 ### Provenance  
-- Source: [Premier League Official Data / Public Repository]  
 - Data type: Structured match-level records  
 - Dimensions: Match data, teams, scores, results, offensive and defensive stats  
 
