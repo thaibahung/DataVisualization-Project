@@ -1,40 +1,31 @@
 # DataVisualization-Project
 # Proposal: Analysis of Premier League Match Data (2021-2022)
 
-## 1. Dataset Description
-The dataset contains match-level statistics from the 2021-2022 Premier League season, providing insights into team performance, match outcomes, and in-game events. It includes both numerical (e.g., goals, shots, fouls) and categorical (e.g., match outcome, teams).  
+## 1. Dataset Description  
+The dataset contains match-level statistics from the 2021-2022 Premier League season, covering team performance, match outcomes, and key events. It includes numerical variables like goals, shots, and fouls, as well as categorical variables such as match results and team names.  
 
-- **Data Type:** Structured dataset with match-level records  
-- **Dimensions:** Match data, teams, scores, results, offensive and defensive stats.  
+### Provenance  
+- Source: [Premier League Official Data / Public Repository]  
+- Data type: Structured match-level records  
+- Dimensions: Match data, teams, scores, results, offensive and defensive stats  
 
 ## 2. Reason for Choosing the Dataset  
-This dataset was chosen because the Premier League is one of the most competitive football leagues globally, making it ideal for performance analysis and storytelling. The dataset allows us to explore key game dynamics, team strategies, and factors influencing match outcomes. The combination of numerical and categorical variables makes it well-suited for visualization and statistical modeling.  
+The Premier League is one of the most competitive football leagues, making this dataset ideal for analyzing game patterns, team strategies, and match outcomes. The combination of numerical and categorical data allows for meaningful statistical analysis and visualization.  
 
 ## 3. Research Questions  
 
-### Question 1: How does shot accuracy impact match results?  
-#### Variables Involved:  
-- **Shots on Target by Home Team (HST)** (Numerical)  
-- **Shots on Target by Away Team (AST)** (Numerical)  
-- **Full-time Result (FTR)** (Categorical)  
+### How does shot accuracy impact match results?  
+- Examining the relationship between shots on target and match outcomes.  
+- Comparing shot accuracy of winning and losing teams.  
 
-#### Plan for Analysis:  
-- Compare shot accuracy between winning and losing teams.  
-- Use scatter plots and correlation matrices to explore trends.  
-- **External Data:** League standings at the end of the season to analyze whether top teams tend to have higher shot accuracy.  
+### How does disciplinary record (fouls and cards) correlate with match outcomes?  
+- Analyzing how fouls and cards affect a team’s performance.  
+- Comparing match results between aggressive and disciplined teams.  
 
-### Question 2: How does disciplinary record (fouls and cards) correlate with match outcomes?  
-#### Variables Involved:  
-- **Fouls by Home Team (HF)** (Numerical)  
-- **Fouls by Away Team (AF)** (Numerical)  
-- **Yellow Cards (HY, AY)** (Numerical)  
-- **Red Cards (HR, AR)** (Numerical)  
-- **Full-time Result (FTR)** (Categorical)  
+## 4. Plan for Analysis  
 
-#### Plan for Analysis:  
-- Compare win rates of teams with different levels of fouls and cards.  
-- Use bar charts to examine trends in fouls vs. success rate.  
-- **External Data:** League standings at the end of the season and possession statistics to check if teams with higher disciplinary records also have lower possession rates.  
+For shot accuracy, we will calculate the ratio of shots on target to total shots and analyze whether teams with higher accuracy have better results. Scatter plots and comparisons across match outcomes will help visualize trends.  
 
-## 4. Conclusion  
-This analysis will provide insights into whether teams should prioritize shot efficiency or focus on aggressive vs. disciplined playstyles. The findings will be supported by visualizations such as heatmaps, scatter plots, and trend lines. By combining match statistics with potential external datasets, we aim to develop actionable insights for understanding what contributes to success in the Premier League.  
+For disciplinary records, we will examine how fouls and cards influence a team's chances of winning. Bar charts and heatmaps will highlight differences between aggressive and disciplined teams.  
+
+To provide deeper insights, external data such as league standings can be merged to compare stats with final rankings, or possession statistics can be used to see if aggressive teams have lower ball control.  
