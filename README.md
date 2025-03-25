@@ -7,11 +7,13 @@
 - Dang Duc Dat
 
 ## 1. Dataset Description
+The data this week comes from the [Premier League Match Data 2021-2022](https://www.kaggle.com/datasets/evangower/premier-league-match-data) via [Evan Gower](https://github.com/evangower) on Kaggle.
+
 The dataset contains match-level statistics from the 2021-2022 Premier League season, providing insights into team performance, match outcomes, and in-game events. It includes both numerical (e.g., goals, shots, fouls) and categorical (e.g., match outcome, teams).  
 
 ### Provenance  
 - **Data Type:** Structured dataset with match-level records  
-- **Dimensions:** Match data, teams, scores, results, offensive and defensive stats.  
+- **Dimensions:** 380 rows x 22 columns with various types like: Match data, teams, scores, results, offensive and defensive stats.  
 
 ## 2. Reason for Choosing the Dataset  
 We are passionate about football, and the Premier League is one of the most exciting and competitive leagues in the world. This dataset allows us to dive deeper into match dynamics, analyze team performances, and explore factors that influence results. By working with real match data, we can apply statistical methods to uncover patterns in gameplay, such as the impact of shot accuracy or disciplinary records on match outcomes. The mix of numerical and categorical variables also provides opportunities for insightful visualizations and comparisons.  
