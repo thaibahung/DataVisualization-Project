@@ -1,5 +1,10 @@
 # DataVisualization-Project
 # Proposal: Analysis of Premier League Match Data (2021-2022)
+## Members:
+
+- Thai Ba Hung
+- Tran Le Hai
+- Dang Duc Dat
 
 ## 1. Dataset Description
 The dataset contains match-level statistics from the 2021-2022 Premier League season, providing insights into team performance, match outcomes, and in-game events. It includes both numerical (e.g., goals, shots, fouls) and categorical (e.g., match outcome, teams).  
