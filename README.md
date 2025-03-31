@@ -24,6 +24,9 @@ We are passionate about football, and the Premier League is one of the most exci
 ## 3. Research Questions  
 
 ### Question 1: Which team playstyle is the least attractive?  
+#### Objective:
+We want to get the team with the least attractive playstyle so that we know matches having that team will less likely to have viewers.
+
 #### Variables Involved:  
 - **FTHG, FTAG:** Full-time goals scored by home and away teams (measuring offensive capability).  
 - **FTR:** Full-time result (Win/Loss/Draw) to determine points earned.  
@@ -44,6 +47,10 @@ We are passionate about football, and the Premier League is one of the most exci
 We will analyze teams that consistently score the fewest goals, take inefficient shots, earn the fewest points, and have high foul/card counts to determine the worst-performing team.  
 
 ### Question 2: Which players should be sold?  
+
+#### Objective: 
+We want to get which players should be sold for the benefit of each team.
+
 To evaluate players who should be sold, we will merge the match dataset with player statistics to analyze individual performance.
 
 #### Variables Involved:
