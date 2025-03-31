@@ -23,7 +23,7 @@ We are passionate about football, and the Premier League is one of the most exci
 
 ## 3. Research Questions  
 
-### Question 1: Which team performed the worst?  
+### Question 1: Which team playstyle is the least attractive?  
 #### Variables Involved:  
 - **FTHG, FTAG:** Full-time goals scored by home and away teams (measuring offensive capability).  
 - **FTR:** Full-time result (Win/Loss/Draw) to determine points earned.  
